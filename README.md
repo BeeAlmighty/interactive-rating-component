@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Vercel](https://your-solution-url.com)
+- Solution URL: [Vercel](http://interactive-rating-component-dusky-three.vercel.app)
 - Live Site URL: [Live Site](http://127.0.0.1:5500/index.html?)
 
 ## My process
