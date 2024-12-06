@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Interactive rating component</title>
+</head>
+<body>
+  <main class="card">
+    <form class="feedback--form" id="feedback-form">
+      <img src="images/icon-star.svg" alt="icon-star">
+      <h1>
+        How did we do?
+      </h1>
+      <p>
+        Please let us know how we did with your support request. All feedback is appreciated 
+        to help us improve our offering!
+      </p>
+      <p class="button--ratings">
+        <button class='rating' id="rating-1" type="button">1</button>
+      <button class='rating' id="rating-2" type="button">2</button>
+      <button class='rating' id="rating-3" type="button">3</button>
+      <button class='rating' id="rating-4" type="button">4</button>
+      <button class='rating' id="rating-5" type="button">5</button>
+      </p>
+      <p>
+        <button type="submit" class="submit-btn" id="submit-btn">Submit</button>
+      </p>
+    </form>
+    <section class="success-message" id="success--message">
+      <img src="images/illustration-thank-you.svg" alt="">
+      <p class="selection">You selected <span id="selection--rating">3</span> out of 5</p>
+      <h1>
+        Thank you!
+      </h1>
+      <p>
+        We appreciate you taking the time to give a rating. If you ever need more support, 
+        don’t hesitate to get in touch!
+      </p>
+    </section>
+  </main>
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Lord Hendrixx</a>.
+    <script src="index.js"></script>
+  </footer>
+</body>
+</html>
